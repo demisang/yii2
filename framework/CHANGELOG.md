@@ -4,6 +4,7 @@ Yii Framework 2 Change Log
 2.0.5 under development
 -----------------------
 
+- Bug: Fixed determine active menu item with url-alias in route `\yii\widgets\Menu::isItemActive()` (demi)
 - Bug #7305: Logging of Exception objects resulted in failure of the logger i.e. no logs being written (cebe)
 - Bug #7374: Use proper INSERT syntax with default values when no values are specified (nineinchnick)
 - Bug #7707: client-side `trim` validator now passes the trimmed value to subsequent validators (nkovacs)
